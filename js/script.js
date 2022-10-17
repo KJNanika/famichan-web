@@ -6,3 +6,6 @@ console.log(message);
 console.log(20+5)
 
 /*this is a comment*/
+
+console.error('This is an error')
+console.warn('This is a warning')
