@@ -26,7 +26,9 @@ console.log ('Current location is ' + location.href);
 console.log('Current port number is ' + location.port);
 console.log(history);
 
-function kvFadeIn () {
-    document.getElementById("KV");
-}
-setTimeout(kvFadeIn, 1000);
+document.getElementById("KV").style.animation = 'scaler 1s ease-out';
+
+
+let socialID = document.getElementById('media');
+console.log(socialID);
+document.innerHTML = "insert media here";
