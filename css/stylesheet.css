@@ -34,7 +34,7 @@ h2 {
     justify-content: center;
 }
 #KV {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
