@@ -34,11 +34,20 @@ h2 {
     justify-content: center;
 }
 #KV {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     flex-direction: column;
-
+    animation: 2s ease-out 2s 1 normal forwards running slidein;
 }
+@keyframes slidein {
+    from {
+        transform: translateY(110vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 article {
     font-family: 'Press Start 2P', cursive;
     color:white;
