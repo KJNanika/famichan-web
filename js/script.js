@@ -30,7 +30,7 @@ function kvFadeIn() {
     document.getElementById("KV").style.display = 'flex';
 }
 
-setTimeout(kvFadeIn, 3000);
+kvFadeIn();
 
 //I would do <document.getElementById("KV").style.animation = "scaler 1s ease-out"> here in my JS, but I only ended up breaking the code that way so I'll just do it directly in CSS instead. Hey, at least I tried.
 
