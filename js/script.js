@@ -39,12 +39,24 @@ let socialID = document.getElementById('media');
 console.log(socialID);
 document.innerHTML = "insert media here";
 
+let arrayNames = ['Hana', 'Eimi', 'Koe', 'Irene', 'Kelly', 'Tia'];
+
 const user = {
-    firstName: "Hana",
     location: "Kansai",
     status: function() {
-        console.log("Heya! I'm ${this.firstName} from ${this.location}!")
+        console.log(`Heya! I'm ${arrayNames[0]} from ${this.location}!`)
     }
 }
 
 user.status();
+
+function charaGreet(person) {
+    console.log("Hi! I'm " + person + "!");
+}
+arrayNames.forEach(charaGreet);
+
+arrayNames.push ("Evie");
+arrayNames.pop ();
+arrayNames.sort ();
+
+console.log (arrayNames);
