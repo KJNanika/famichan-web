@@ -38,3 +38,13 @@ setTimeout(kvfadeIn, 3000);
 let socialID = document.getElementById('media');
 console.log(socialID);
 document.innerHTML = "insert media here";
+
+const user = {
+    firstName: "Hana",
+    location: "Kansai",
+    status: function() {
+        console.log("Heya! I'm ${this.firstName} from ${this.location}!")
+    }
+}
+
+user.status();
